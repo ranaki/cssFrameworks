@@ -7,6 +7,7 @@
         <link href="http://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
         <link rel="stylesheet" href="css/materialize.css" media="screen,projection"/>
         <link href="css/style.css" rel="stylesheet">
+        <script type="text/javascript" src="https://code.jquery.com/jquery-2.1.1.min.js"></script>
     </head>
     <body class="grey lighten-3">
     <header>
@@ -14,7 +15,7 @@
             <div class="nav-wrapper black">
                 <div class="card">
                     <div class="card-image">
-                        <a href="#" class="brand-logo right"><img src="img/logo.jpeg" alt="logo"></a>
+                        <a href="#" class="brand-logo right "><h5 class="thin">RB Travel</h5></a>
                     </div>
                 </div>
                 <ul id="nav-mobile" class="left hide-on-med-and-down">
@@ -27,7 +28,7 @@
        <div class="grey lighten-2">
            <div class=-"row">
                <div class="center-align">
-                    <h3 class="condensed">Tour Through Thailand</h3>
+                    <h3 class="condensed">Experience Amazing Thailand</h3>
                </div>
                <div class="divider"></div>
            </div>
@@ -51,7 +52,7 @@
                     <div class="card-panel blue darken-4 white-text">Ride a Tuktuk</div>
                 </div>
                 <div class="row">
-                    <div class="card-panel blue darken-4 white-text">Speed Boats</div>
+                    <div class="card-panel blue darken-4 white-text">Speed Boat Travel</div>
                 </div>
                 <div class="row">
                     <div class="card-panel blue darken-4 white-text">Currency Calculator</div>
@@ -62,8 +63,9 @@
             </div>
             <div class="col s12 m8 l9">
                 <div class="row">
-                    <div class="rb-margin-top center"><h5>Bangkok - "City of Angels"</h5></div>
+                    
                     <div class="rb-margin-div card-panel blue darken-4 white-text offset-s1">
+                        <div class="rb-margin-top center"><h5>Bangkok - "City of Angels"</h5></div>
                         <div class="card">
                             <div class="card-image">
                             <img src="img/bangkok.jpeg">
@@ -94,8 +96,9 @@
                 </div>
                 <div class="divider"></div>
                 <div class="row">
-                    <div class="rb-margin-div center"><h5>River Kwai</h5></div>
+                    
                     <div class="rb-margin-div card-panel green darken-4 white-text">
+                        <div class="rb-margin-div center"><h5>River Kwai</h5></div>
                         <div class="card">
                             <div class="card-image">
                             <img src="img/riverkwai1.jpeg">
@@ -112,8 +115,8 @@
                 </div>
                 <div class="divider"></div>
                 <div class="row">
-                    <div class="rb-margin-div center"><h5>Ayutthaya</h5></div>
-                    <div class="rb-margin-div card-panel purple darken-4 white-text">3
+                    <div class="rb-margin-div card-panel purple darken-4 white-text">
+                        <div class="rb-margin-div center"><h5>Ayutthaya</h5></div>
                         <div class="card">
                             <div class="card-image">
                             <img src="img/ayutthaya.jpeg">
@@ -130,16 +133,29 @@
                 </div>
                 <div class="divider"></div>
                 <div class="row">
-                    <div class="rb-margin-div center"><h5>Register Here</h5></div>
-                    <div id="register" class="rb-margin-div card-panel orange darken-4 white-text">
-                        
-                    </div>
+                    <div id="register" class="rb-margin-div card-panel blue darken-4 white-text">
+                        <div class="rb-margin-div center"><h5>Register Here</h5></div>
+                            <div class="row">  
+                                <label for="datepick">Choose a date</label>          
+                                <input id="datepick" type="date" class="datepicker s4">  
+                                <div class="input-field col s4">
+                                    <input placeholder="first" id="first_name" type="text" class="validate">
+                                    <label for="first_name">First Name</label>
+                                </div>
+                                <div class="input-field col s4">
+                                    <input placeholder="last" id="last_name" type="text" class="validate">
+                                    <label for="last_name">Last Name</label>
+                                </div>
+                                <div class="input-field col s12">
+                                    <input placeholder="email" id="email" type="text" class="validate">
+                                    <label for="email">Email Addess</label>
+                                </div>
+                            </div>
+                        </div>
                 </div>
             </div>
         </div>
     </div>
-        
-
-        <script src="js/materialize.js"></script>
+    <script src="js/materialize.js"></script>
     </body>
 </html>
